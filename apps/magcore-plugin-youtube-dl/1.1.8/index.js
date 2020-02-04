@@ -5609,8 +5609,7 @@ exports.validateURL = function (string) {
 /**
  * @param {Object} info
  * @return {Array.<Object>}
- */
-exports.parseFormats = function (info) {
+ */exports.parseFormats = function (info) {
   var formats = [];
 
   if (info.player_response.streamingData.formats) {
@@ -5664,7 +5663,6 @@ exports.parseFormats = function (info) {
 
   return formats;
 };
-
 /**
  * @param {Object} format
  */
